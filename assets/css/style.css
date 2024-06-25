@@ -22,9 +22,224 @@
  }
 
 /* ********** Global Styles ********** */
-
+body {
+    width: 100vw;
+    
+}
 
 /* ********** Header ********** */
-
+.header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.header .svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.header #action {
+    font-size: 16px;
+    font-family: "Roboto";
+    text-decoration: none;
+    color: black;
+    
+}
 
 /* ********** Main ********** */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.parallax {
+    background-image: url(../images/cleo-topper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+}
+
+/* ********** Slider1 ********** */
+.slider1 {
+    width: 100vw;
+    height: auto;
+    
+}
+
+.slider1 h1{
+    font-family: "Inter";
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    height: 720px;
+    width: 265px;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+}
+.slider1 h6 {
+    
+    font-family: "MrDafoe";
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #E7BC0E;
+    
+    margin: 5rem 0 5rem 5rem;
+}
+.slider1 .helvetica-neue {
+    font-family: "Helvetica Neue";
+    font-size: 32px;
+    color: #E7BC0E;
+    margin: -5rem 0 10rem 30%;
+}
+
+/* ********** Slider2 ********** */
+
+.slider2 {
+    font-family: "Santio";
+    width: 34vw;
+    height: auto;
+    padding: 5rem 0;
+    margin-left: 15vw;
+}
+
+.slider2 p {
+    font-size: 35px;
+    color: #6BC1A3;
+}
+
+.slider2 span {
+    font-size: 36px;
+    color: white;
+}
+
+
+/* ********** Slider3 ********** */
+
+.slider3 {
+    font-family: "Santio";
+    width: 40vw;
+    height: auto;
+    padding: 5rem 0;
+    margin-left: 25vw;
+}
+.slider3 .svg {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 3rem;;
+    
+}
+.slider3 h3{
+    font-size: 139px;
+    color: #E7BC0E;
+}
+.slider3 h2 {
+    font-size: 42px;
+    color: #E7BC0E;
+}
+.slider3 span {
+    font-size: 42px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.361);
+}
+
+/* ********** Slider4 ********** */
+
+
+.slider4 {
+    font-family: "Santio";
+    width: 40vw;
+    height: auto;
+    padding: 5rem 0;
+    margin-left: 25vw;
+}
+.slider4 .svg {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 3rem;;
+    
+}
+.slider4 h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #CB91B6;
+}
+.slider4 h4 {
+    font-size: 97px;
+    color: #CB91B6;;
+}
+.slider4 span {
+    font-size: 42px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.361);
+}
+
+
+/* ********** Slider5 ********** */
+
+.slider5 {
+    font-family: "Santio";
+    width: 40vw;
+    height: auto;
+    padding: 5rem 0;
+    margin-left: 25vw;
+}
+.slider5 .svg {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 3rem;;
+    
+}           
+.slider5 h5{
+    font-size: 111px;
+    font-weight: bold;
+    color: #6BC1A3;
+}
+.slider5 h2 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #6BC1A3;
+}
+
+.slider5 span {
+    font-size: 42px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.361);
+}
+
+/* ********** Slider6 ********** */
+
+.slider6 {
+    font-family: "Santio";
+    width: 34vw;
+    height: auto;
+    padding: 5rem 0;
+    margin-left: 25vw;
+}
+
+.slider6 p {
+    font-size: 35px;
+    color: #7EB8E1;
+}
+
+.slider6 span {
+    font-size: 36px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.361);
+}
+
+/* ********** Background Image Section ********** */
+
+.img_bg img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}

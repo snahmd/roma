@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Santio";
+    src: url(../fonts/Santio\ regular.ttf);
+}
+@font-face {
+    font-family: "MrDafoe";
+    src: url(../fonts/MrDafoe-Regular.ttf);
+} 
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+/* ********** Global Styles ********** */
+
+
+/* ********** Header ********** */
+
+
+/* ********** Main ********** */

@@ -243,3 +243,42 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+/* ********** Donate Section ********** */
+
+.donate_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: -4px;
+    
+}
+
+.donate_section h2 {
+    font-family: "Inter";
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5rem;
+    width: 34vw;
+    margin: 0 0 3rem 15vw;
+}
+.donate_section a {
+    
+    font-family: "Roboto";
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    margin: 0 0 0  15vw;
+}
+
+.donate_section a:hover {
+    
+    box-shadow: 10px 10px white;
+}

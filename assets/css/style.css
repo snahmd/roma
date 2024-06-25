@@ -282,3 +282,27 @@ body {
     
     box-shadow: 10px 10px white;
 }
+
+/* ********** Footer ********** */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100vw;
+    color: white;
+    background-color: black;;
+    
+}
+footer p {
+    font-family: "Roboto";
+    font-size: 12px;
+   
+}
+footer a {
+    font-family: "Roboto";
+    font-size: 12px;
+    text-decoration: none;
+    color: #6BC1A3;
+}
